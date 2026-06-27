@@ -1,0 +1,63 @@
+/* sidebar.css */
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #800020; /* Oyo State Corporate Deep Wine Red */
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* Base style for navigation links */
+.sidebar .nav-link-btn {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    color: #800020; /* Matches the wine red theme */
+    font-weight: 500;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar .nav-link-btn:hover {
+    background: #f8f9fa;
+    color: #5a0016; /* Slightly darker shade on hover */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* Admin Panel Styles */
+.sidebar .admin-title {
+    color: #ffc107; /* Gold/Yellow accent */
+    font-size: 0.9rem; 
+    letter-spacing: 1px;
+}
+
+.sidebar .admin-btn {
+    background: transparent;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+}
+
+.sidebar .admin-btn:hover {
+    background: #ffc107;
+    color: #800020;
+}
+
+/* Logout Button Styles */
+.sidebar .logout-btn {
+    background: #212529; /* Dark charcoal/black for clear separation */
+    color: #ffffff;
+}
+
+.sidebar .logout-btn:hover {
+    background: #000000;
+    color: #ffffff;
+}
