@@ -13,15 +13,15 @@
             <div class="col-md-6 text-center text-md-end">
                 <ul class="list-inline mb-0 small">
                     <li class="list-inline-item">
-                        <a href="/medical_collab_system/dashboard.php" class="text-white-50 text-decoration-none text-hover-gold">Dashboard</a>
+                        <a href="/dashboard.php" class="text-white-50 text-decoration-none text-hover-gold">Dashboard</a>
                     </li>
                     <li class="list-inline-item text-white-50 opacity-50">|</li>
                     <li class="list-inline-item">
-                        <a href="/medical_collab_system/index.php" class="text-white-50 text-decoration-none text-hover-gold">Home</a>
+                        <a href="/index.php" class="text-white-50 text-decoration-none text-hover-gold">Home</a>
                     </li>
                     <li class="list-inline-item text-white-50 opacity-50">|</li>
                     <li class="list-inline-item">
-                        <a href="/medical_collab_system/logout.php" class="text-white-50 text-decoration-none text-hover-gold">Log Out</a>
+                        <a href="/logout.php" class="text-white-50 text-decoration-none text-hover-gold">Log Out</a>
                     </li>
                 </ul>
             </div>

@@ -113,7 +113,7 @@
     <nav class="navbar navbar-dark" style="background-color: #800020;">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2 text-white" href="#">
-                <img src="/medical_collab_system/assets/images/logo.png" alt="Oyo State Logo" height="35" class="d-inline-block align-top">
+                <img src="/assets/images/logo.png" alt="Oyo State Logo" height="35" class="d-inline-block align-top">
                 Medical Collaborative System
             </a>
             <a href="login.php" class="btn btn-gold px-4">
@@ -127,7 +127,7 @@
         <div class="container">
             <!-- Adjusted layout height so it's clean and compact -->
             <div class="mb-3">
-                <img src="/medical_collab_system/assets/images/logo.png" alt="Oyo State Badge" height="75" class="img-fluid drop-shadow">
+                <img src="/assets/images/logo.png" alt="Oyo State Badge" height="75" class="img-fluid drop-shadow">
             </div>
             <h1 class="display-6">Medical Collaborative System</h1>
             <p class="lead">

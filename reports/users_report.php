@@ -4,9 +4,9 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Check if user is logged in AND is an admin
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'Admin') {
     // Adjust this relative path depending on where your access_denied.php file is stored
-    header("Location: /medical_collab_system/access_denied.php");
+    header("Location: /access_denied.php");
     exit();
 }
 

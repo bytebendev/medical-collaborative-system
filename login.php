@@ -134,7 +134,7 @@ if (isset($_POST['login'])) {
         <div style="width: 100%; max-width: 400px;">
             
             <div class="text-center mb-3">
-                <img src="/medical_collab_system/assets/images/logo.png" alt="Oyo State Crest" height="45" class="img-fluid">
+                <img src="/assets/images/logo.png" alt="Oyo State Crest" height="45" class="img-fluid">
             </div>
             
             <div class="card login-card">
